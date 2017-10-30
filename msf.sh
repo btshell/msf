@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo "##############################################"
-echo "########### Taller Qurtuba 2017 ##############"
+echo " I  AM  DEVIL (Lokesh) , PLZ SUBSCRIBE MY CHANNEL"
 echo "##############################################"
 
 echo "WAIT UNTIL INSTALLING............" 
@@ -12,7 +12,7 @@ apt update && apt upgrade
 echo "Downloading & Extracting....."
 
 cd $HOME
-curl -LO https://github.com/rapid7/metasploit-framework
+curl -LO https://github.com/rapid7/metasploit-framework/archive/4.16.4.tar.gz
 tar -xf $HOME/4.16.4.tar.gz
 mv $HOME/metasploit-framework-4.16.4 $HOME/metasploit-framework
 rm $HOME/4.16.4.tar.gz
@@ -41,6 +41,16 @@ bundle install -j5
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
 rm ./modules/auxiliary/gather/http_pdf_authors.rb
 ln -s $HOME/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
-echo "##############################################"
-echo "########### Taller Qurtuba 2017 ##############"
-echo "##############################################"
+echo "###############################"
+echo "Thanx  To  Vishalbiswani"
+echo "###############################"
+
+echo "###############################################"
+echo "Hello  I  Am  Devil  (Lokesh) ,  Subscribe  My  Channel  To  Motivate  My  Work"
+echo "###############################################"
+echo "###############################"
+echo "For  More. Tricks. Visit  At  hax4us.com"
+echo "###############################"
+echo "####################################"
+echo " NOW YOU CAN LAUNCH METASPLOIT BY JUST EXECUTE THE COMMAND :=> msfconsole"
+echo "####################################"
