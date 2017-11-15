@@ -1,12 +1,12 @@
-echo "##############################################"
-echo "########### Taller Qurtuba 2017 ##############"
-echo "##############################################"
+echo "++++++++++++++++++++++++++++++++++++++++++++++"
+echo "+++++ Metasploit in Android by BTshell +++++++"
+echo "++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo "WAIT UNTIL INSTALLING............" 
 
-echo "####################################"
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>BTshell"
 apt install -y autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql
-echo "####################################"
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>BTshell"
 apt update && apt upgrade
 echo "Downloading & Extracting....."
 
@@ -40,6 +40,6 @@ bundle install -j5
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
 rm ./modules/auxiliary/gather/http_pdf_authors.rb
 ln -s $HOME/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
-echo "##############################################"
-echo "########### Taller Qurtuba 2017 ##############"
-echo "##############################################"
+echo "++++++++++++++++++++++++++++++++++++++++++++++"
+echo "+++++ Metasploit in Android by BTshell +++++++"
+echo "++++++++++++++++++++++++++++++++++++++++++++++"
